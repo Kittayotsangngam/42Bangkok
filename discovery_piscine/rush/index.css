@@ -1,0 +1,59 @@
+body {
+    background-image:url(https://shortrecap.co/wp-content/uploads/2019/06/%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%82%E0%B8%95%E0%B9%8A%E0%B8%B0%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99-cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+  .row h1{
+    text-align: center;
+    width: fit-content;
+    font-size: 50px;
+    color: whitesmoke;
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+    border: 5px solid black;
+  }
+  .row button{
+    width: auto;
+    height: auto;
+    font-size: larger;
+  }
+  .row button{
+    background-color: #343A40;
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 5px solid black;
+    
+  }
+  .row a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .row button:hover{
+     background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+     animation:slidebg 5s linear infinite;
+  }
+  
+
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  .head{
+    margin-top: 40px;
+  }
+  
+  .head{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
